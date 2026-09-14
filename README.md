@@ -1,4 +1,3 @@
-```
 <div align="center">
 
 # <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=28 /> <a href="https://github.com/flowerseals/">flowerseals</a><a href="https://github.com/flowerseals/zapret-telegram-youtube/">/zapret-telegram-youtube</a> <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" height=28 />
@@ -142,17 +141,17 @@
 
 1. Узнайте название службы с помощью команды, в командной строке Windows (Win+R, `cmd`):
 
-```cmd
+cmd
 driverquery | find "Divert"
 ```
 
 2. Остановите и удалите службу командами:
 
-```cmd
+cmd
 sc stop название_из_первого_шага
 
 sc delete название_из_первого_шага
-```
+
 
 ### Не работает <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" height=18 /> YouTube
 
